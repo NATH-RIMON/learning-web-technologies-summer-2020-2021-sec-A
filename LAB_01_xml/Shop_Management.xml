@@ -1,0 +1,30 @@
+<Shop_Management>
+    <id>ID</id>
+    <name>NAME</name>
+    <address>ADDRESS</address>
+    <dep>DEPARTMENT</dep>
+    <sal>SALARY</sal>
+
+    <id>1</id>
+    <name>John Doe </name>
+    <address>H# 38, R#3, Banani, Dhaka </address>
+    <dep>Sales</dep>
+    <sal>$20000</sal>
+
+    <id>2</id>
+    <name>Mark Zuckerberg</name>
+    <address>Flat# A/1, H# 20, R#18, Mirpur, Dhaka</address>
+    <dep>Accounts</dep>
+    <sal>$12000</sal>
+
+    <id>3</id>
+    <name>Ala Voski</name>
+    <address>H# 38, R#3, Motijheel </address>
+    <dep>Human Resource</dep>
+    <sal>$30000</sal>
+
+
+
+
+
+</Shop_Management>
