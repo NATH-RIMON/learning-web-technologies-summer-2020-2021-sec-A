@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(175, 152, 216);
+    font-family: 'Open Sans' ,sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20px;
+    margin: 0;
+    padding: 30px 40px;
+}
+.Name{
+    background-color: rgb(241, 235, 227);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(245, 236, 236);
+    width: 400px;
+    padding: 30px 40px;
+
+
+}

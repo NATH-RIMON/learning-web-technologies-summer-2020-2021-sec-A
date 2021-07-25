@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>From_1</title>
+        <link rel="stylesheet" href="Name.css">
+    </head>
+    <body>
+
+        <script >
+            function validation()
+            {
+                let name=document.getElementById("name");
+                if(name.value.trim()=="")
+                {
+                    alert("Blank field is not allow");
+                }
+
+                else if(name.value.trim().length<2 || name.value.trim().length>20)
+                {
+                    alert("Character must be 2 to 20");
+                }
+
+                else if(!isNaN(name.value))
+                {
+                    alert("Number is not allow");
+                }
+
+
+                else
+                {
+                    alert("Submit successfully");
+
+                }
+
+
+
+            }
+
+        </script>
+        <div id="error"></div>
+
+        <form onsubmit="validation()" action="Name.html" method="GET" class="Name">
+            <div>
+                <label>Name</label>
+                <input id="name" type="text" name="name" placeholder="Enter your Name">
+                <br><br>
+                <input  type="submit" value="submit">
+    
+    
+            </div>
+
+
+
+        </form>
+       
+        
+        
+    </body>
+</html>
