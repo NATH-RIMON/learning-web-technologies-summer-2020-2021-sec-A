@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Email</title>
+        <link rel="stylesheet" href="Email.css">
+    </head>
+    <body>
+
+        <script >
+            function validation()
+            {
+                let email=document.getElementById("email").value;
+               
+                var regex=/^([a-zA-Z0-9\._]+)@([a-zA-Z0-9])+.([a-z]+)(.[a-z]+)?$/
+               
+                if(regex.test(email))
+                {
+                    document.getElementById('message').innerHTML="Email is correct";
+                    return true;
+
+                }
+                else
+                {
+                    document.getElementById('message').innerHTML="Please Enter vailed email Id";
+                    return false;
+
+                }
+
+
+            }
+
+        </script>
+        
+         <form onsubmit="return validation()"  class="Email" >
+            <div>
+                <label>Email</label>
+                <input id="email" type="text" placeholder="abc@gmail.com"><br>
+                <span id="message" class="text-danger"></span>
+                <br>
+                <button >Submit</button>
+               
+    
+    
+            </div>
+
+
+
+        </form>
+    </body>
+</html>
