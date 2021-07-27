@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    display: flex;
+    
+   
+    align-items: center;
+    justify-content: center;
+
+
+}
+.span
+{
+    display: block;
+    margin-Left:20px;
+    color:red;
+    font-style: italic;
+
+}
+#date, #month{
+    width: 10%;
+
+
+}
+#year
+{
+    width: 18%;
+}
+
+
+
+.DOB{
+    background-color: rgb(241, 235, 227);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(245, 236, 236);
+    width: 400px;
+    padding: 30px 40px;
+    
+
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gender</title>
+        <link rel="stylesheet" href="Gender.css">
+    </head>
+    <body>
+        <script>
+            function validation()
+            {
+                var vaild=false;
+                var a=document.forms.gend;
+                for(var i=0;i<a.length;i++)
+                {
+                    if(a[i].checked)
+                    {
+                        vaild= true;
+                        break;
+                    }
+                      
+                }
+                if(vaild)
+                {
+                    alert("submit successfully");
+                }
+                else
+                {
+                    alert("Chosse your Gender");
+                    return false;
+                }
+
+                
+
+            }
+
+
+        </script>
+
+        <fieldset class="Gender" >
+            <legend>Gender</legend>
+            <form onsubmit="return validation()" name="forms">
+                <div>
+                    <input type="radio" name="gend"  value="Male">Male
+                    <input type="radio" name="gend"  value="Female">Female
+                    <input type="radio" name="gend"  value="Others">Others
+                </div>
+                
+                <br>
+                <button>submit</button>
+                
+            </form>
+           
+            
+        </fieldset>
+
+        
+        
+    </body>
+</html>

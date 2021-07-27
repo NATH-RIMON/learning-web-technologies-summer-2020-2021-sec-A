@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Degree</title>
+        <link rel="stylesheet" href="Degree.css">
+    </head>
+    <body>
+        <script>
+            function validation()
+            {
+                var vaild=false;
+                var a=document.forms.gend;
+                for(var i=0;i<a.length;i++)
+                {
+                    if(a[i].checked)
+                    {
+                        vaild= true;
+                        break;
+                    }
+                      
+                }
+                if(vaild)
+                {
+                    alert("submit successfully");
+                }
+                else
+                {
+                    alert("Chosse your Education Qualification");
+                    return false;
+                }
+
+                
+
+            }
+
+
+        </script>
+
+        <fieldset class="Degree" >
+            <legend>Degree</legend>
+            <form onsubmit="return validation()" name="forms">
+                <div>
+                    <input type="checkbox" name="gend"  value="SSC">SSC
+                    <input type="checkbox" name="gend"  value="HSC">HSC
+                    <input type="checkbox" name="gend"  value="BSc">BSc
+                </div>
+                
+                <br>
+                <button>submit</button>
+                
+            </form>
+           
+            
+        </fieldset>
+
+        
+        
+    </body>
+</html>
