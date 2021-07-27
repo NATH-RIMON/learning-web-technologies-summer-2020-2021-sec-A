@@ -61,6 +61,17 @@
                    }
                }
 
+               let db=document.getElementById("db");
+                if(db.value.trim()=="")
+                {
+                    alert("Blank field is not allow");
+                }
+
+                else if(db.value.trim().length<2 || db.value.trim().length>20)
+                {
+                    alert("Character must be 2 to 20");
+                }
+
                
 
 
@@ -93,14 +104,14 @@
                 <label>Gender:</label>
                 <input name="gender" type="radio" value="">Male
                 <input name="gender" type="radio" value="">Female
-                <input named="gender" type="radio" value="">Other
+                <input name="gender" type="radio" value="">Other
             </div>
             <br>
             <div>
                 <label>Date Of Birth</label>
-                <input type="text" size="2px">/
-                <input type="text" size="2px">/
-                <input type="text" size="2px">
+                <input id=db type="text" size="2px">/
+                <input id=db type="text" size="2px">/
+                <input id=db type="text" size="2px">
                 <label>(dd/mm/year)</label>
                 
             </div>
