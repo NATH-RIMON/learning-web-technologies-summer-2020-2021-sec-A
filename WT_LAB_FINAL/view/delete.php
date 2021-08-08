@@ -15,7 +15,7 @@
 	<h1>Delet user</h1>
 
 	<nav>
-		<a href="home.php">Back</a> |
+		<a href="Admin_home.php">Back</a> |
 		<a href="../controller/logout.php">logout</a>
 	</nav>
 	
@@ -25,11 +25,11 @@
 			<input type="hidden" name="id" value="<?=$user['id']?>">
 			<table border="1">
 				<tr>
-					<td>Name</td>
+					<td>Employer Name</td>
 					<td><?=$user['name']?></td>
 				</tr>
 				<tr>
-					<td>Email</td>
+					<td>Company Name</td>
 					<td><?=$user['email']?></td>
 				</tr>
 				<tr>

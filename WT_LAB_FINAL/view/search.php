@@ -1,7 +1,7 @@
 <?php 
 
 	//connection
-	$conn = mysqli_connect('localhost', 'root', '', 'WT_LAB_FINAL');
+	$conn = mysqli_connect('localhost', 'root', '', 'final_lab');
 
 	$sql = 'select * from registration';
                     
