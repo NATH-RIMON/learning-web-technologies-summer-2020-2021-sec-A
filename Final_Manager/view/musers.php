@@ -52,7 +52,7 @@
                             <td><?=$users[$i]['phone']?></td>
 							<td><img src="images/profile_pic/<?=$users[$i]['image_name']?>" width="50px"></td>
 							<td>
-                            <a class='btn btn-small btn-small-primary' href='../view/edit-user.php?
+                            <a class='btn btn-small btn-small-primary' href='../view/medit-user.php?
                                 id=<?=$users[$i]['id']?>
                                 &username=<?=$users[$i]['username']?>
                                 &password=<?=$users[$i]['password']?>
@@ -67,7 +67,7 @@
 
 							
                             <td align='center'>
-                                <a class='btn btn-red btn-red-primary' href='../view/delete-user.php?
+                                <a class='btn btn-red btn-red-primary' href='../view/mdelete-user.php?
                                 id=<?=$users[$i]['id']?>
                                 &username=<?=$users[$i]['username']?>
                                 &password=<?=$users[$i]['password']?>
